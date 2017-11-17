@@ -13,3 +13,11 @@ p{
   align-items:center;
   justify-content:center;  
 }
+.flexmiddle {
+   -webkit-flex: 2 0 0;
+   flex: 2 0 0;
+}
+.flexsides {
+   -webkit-flex: 1 0 0;
+   flex: 1 0 0;
+}
