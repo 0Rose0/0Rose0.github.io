@@ -4,3 +4,12 @@ p{
     list-style: none;
     font-weight: bold;
 }
+
+.flexbody{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-forection:row;
+  align-items:center;
+  justify-content:center;  
+}
