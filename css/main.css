@@ -3,6 +3,8 @@ p{
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    text-align:center;
+    vertical-align:middle;
 }
 
 .flexbody{
