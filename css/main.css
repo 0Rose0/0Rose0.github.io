@@ -13,7 +13,9 @@ p{
   -webkit-flex-direction: row;
   flex-forection:row;
   align-items:center;
-  justify-content:center;  
+  justify-content:center;
+  text-align:center;
+  vertical-align:middle;
 }
 .flexmiddle {
    -webkit-flex: 2 0 0;
