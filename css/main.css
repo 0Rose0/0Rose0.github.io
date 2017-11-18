@@ -21,3 +21,11 @@ p{
    -webkit-flex: 1 0 0;
    flex: 1 0 0;
 }
+.flexleft{
+  -webkit-align-self: flex-start;
+  align-self: flex-start;
+}
+.flexright{
+  -webkit-align-self: flex-start;
+  alogn-self: flex-end;
+}
