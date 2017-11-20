@@ -24,6 +24,10 @@ p{
 .flexsides {
    -webkit-flex: 1 0 0;
    flex: 1 0 0;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
 }
 .flexleft{
   -webkit-align-self: flex-start;
