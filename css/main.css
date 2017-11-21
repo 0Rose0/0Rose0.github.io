@@ -58,13 +58,14 @@ button{
   background-color:#1e66ae;
   border-radius:10px;
   box-shadow: 2px 2px 3px #363636;
-}
-.picture{
-  height:200px;
-  background-color:#ae1e27;
   align-items:center;
   justify-content:center;
   text-align:center;
   vertical-align:middle;
+}
+.picture{
+  height:200px;
+  background-color:#ae1e27;
+  
   
 }
