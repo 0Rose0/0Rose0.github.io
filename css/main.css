@@ -52,8 +52,8 @@ button{
   background-color:#1e66ae;
 }
 .tool{
-  width:50%;
-  height: 100%;
+  margin: 50px;
+  height: 50px;
   background-color:#1e66ae;
   border-radius:10px;
   box-shadow: 10px 10px 5px #888888;
