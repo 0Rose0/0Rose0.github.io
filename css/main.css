@@ -37,3 +37,9 @@ p{
   -webkit-align-self: flex-start;
   alogn-self: flex-end;
 }
+.filterbar{
+  display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+}
