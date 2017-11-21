@@ -48,11 +48,12 @@ p{
   vertical-align:middle;
 }
 button{
-  margin: 100px,10px,100px, 10px;
+  
   background-color:#1e66ae;
 }
 .tool{
-  margin:50px;
+  width:50%;
+  height: 100%;
   background-color:#1e66ae;
   border-radius:10px;
   box-shadow: 10px 10px 5px #888888;
