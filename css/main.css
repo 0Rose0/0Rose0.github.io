@@ -39,7 +39,15 @@ p{
 }
 .filterbar{
   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  vertical-align:middle;
+}
+button{
+  margin: 100px, 0px, 100px, 0px;
+  color:#1e66ae;
 }
