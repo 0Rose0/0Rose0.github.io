@@ -28,14 +28,10 @@ p{
    display: flex;
    -webkit-flex-direction: column;
    flex-direction: column;
-}
-.flexleft{
-  -webkit-align-self: flex-start;
-  align-self: flex-start;
-}
-.flexright{
-  -webkit-align-self: flex-start;
-  alogn-self: flex-end;
+   align-items:center;
+   justify-content:center;
+   text-align:center;
+   vertical-align:middle;
 }
 .filterbar{
   display: -webkit-flex;
@@ -46,12 +42,15 @@ p{
   justify-content:center;
   text-align:center;
   vertical-align:middle;
+  
 }
 button{
   
   background-color:#1e66ae;
 }
 .tool{
+  display: -webkit-flex;
+  display: flex;
   margin: 10px 50px 10px 50px;
   height: 50px;
   width:50px;
