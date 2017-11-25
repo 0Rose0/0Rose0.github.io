@@ -32,7 +32,7 @@ p{
    justify-content:center;
    text-align:center;
    vertical-align:middle;
-    background-image: url("lenses-2924695_1920.png");
+   
 }
 .filterbar{
   display: -webkit-flex;
@@ -70,8 +70,8 @@ button{
   background-color:#ae1e27;
 }
 .filter{
-   margin: 10px;
-  padding: 10px;
+   margin: 10px 50px 10px 50px;
+  padding: 10px 50px 10px 50px;
 }
 .header{
   background-image: url("https://user-images.githubusercontent.com/16003525/33234973-ad15f752-d1ec-11e7-9224-7046c95b540a.png");
