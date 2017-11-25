@@ -77,7 +77,7 @@ button{
 .header{
   height:200px;
   background-image: url("https://user-images.githubusercontent.com/16003525/33234973-ad15f752-d1ec-11e7-9224-7046c95b540a.png");
-
+  background-repeat:no-repeat;
   background-size: 100px 200px;
   
 }
