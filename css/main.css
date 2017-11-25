@@ -76,6 +76,9 @@ button{
 }
 .header{
   background-image: url("https://user-images.githubusercontent.com/16003525/33234973-ad15f752-d1ec-11e7-9224-7046c95b540a.png");
+  background: url(img_flwr.gif);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
   height: 50%;
   width:50%;
   
