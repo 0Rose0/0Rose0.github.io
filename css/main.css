@@ -79,7 +79,6 @@ button{
   background: url(img_flwr.gif);
   background-size: 100px 100px;
   background-repeat: no-repeat;
-  height: 50%;
-  width:50%;
+  height: 200px;
   
 }
