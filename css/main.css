@@ -82,14 +82,7 @@ button{
 }
 
 .intro{
-   display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-forection:row;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-  vertical-align:middle;
+   
   height:200px;
   
   
