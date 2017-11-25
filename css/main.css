@@ -32,6 +32,7 @@ p{
    justify-content:center;
    text-align:center;
    vertical-align:middle;
+    background-image: url("lenses-2924695_1920.png");
 }
 .filterbar{
   display: -webkit-flex;
