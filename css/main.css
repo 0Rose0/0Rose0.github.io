@@ -83,7 +83,14 @@ button{
 }
 
 .intro{
-   
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   align-items:center;
+   justify-content:center;
+   text-align:center;
+   vertical-align:middle;
   height:200px;
   color:white;
   background-color:#383838;
