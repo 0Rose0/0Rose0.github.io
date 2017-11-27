@@ -16,6 +16,7 @@ p{
   justify-content:center;
   text-align:center;
   vertical-align:middle;
+  background-color:#383838;
 }
 .flexmiddle {
    -webkit-flex: 2 0 0;
@@ -32,7 +33,7 @@ p{
    justify-content:center;
    text-align:center;
    vertical-align:middle;
-   background-color:#772251;
+   background-color:#3b3a3b;
    
 }
 .filterbar{
@@ -68,7 +69,8 @@ button{
 }
 .picture{
   height:200px;
-  background-color:#ae1e27;
+  background-image: url("https://user-images.githubusercontent.com/16003525/33234973-ad15f752-d1ec-11e7-9224-7046c95b540a.png");
+  
 }
 .filter{
    margin: 10px 50px 10px 50px;
