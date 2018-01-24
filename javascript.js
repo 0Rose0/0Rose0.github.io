@@ -11,16 +11,16 @@ var picture = "";
     this.details
   });
   var details = {
-    "name": 'Testing 123'
-    "succeed": true
+    name: 'Testing 123'
+    succeed: true
   }
   
   var tool = {
-    "activated": false,
-    "sticker": "",
-    "xloc": 0;
-    "yloc": 0
-    
+    activated: false,
+    sticker: "",
+    xloc: 0;
+    yloc: 0
+   // Names need paraethesis or not?//
   }
   
 })();
