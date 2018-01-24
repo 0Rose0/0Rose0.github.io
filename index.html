@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="test">
  <head>
   
   <link rel="stylesheet" type="text/css" href="/css/main.css">
  </head>
  
-<body ng-controller="TestController as test">
+<body ng-controller="TestController as realTest">
  
  
  <div class="header" > 
@@ -33,7 +33,7 @@
  <div class="flexmiddle">   
   <div class="uploadbutton"> Upload picture </div>
   <div class="picture"> 
-   <img src = {{test.picture}}>
+   <img src = {{realTest.picture}}>
    Picture </div>
   <div class="filterbar"> 
     <button class="filter"  style="background-color: grey"> Grey </button>
@@ -42,12 +42,12 @@
   </div>
  </div>
  <div class="flexsides"> 
-  <button ng-show="test.details.succeed" class="tool"> A </button>
+  <button ng-show="realTest.details.succeed" class="tool"> A </button>
   <button class="tool"> B </button>
   <button class="tool"> C </button>
  </div>
   
-  <div ng-repeat = "details in test.details">
+  <div ng-repeat = "details in realTest.details">
    <p>{{details.name}}</p>
     <p>{{details.testNum}}</p>
   </div>
