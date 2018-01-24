@@ -8,7 +8,7 @@ console.log("Sup World");
   var app = angular.modul('test', []);
   app.controller('TestController', function(){
     this.details
-    tihs.picture
+    this.picture
   });
   var details = {
     name: 'Testing 123'
