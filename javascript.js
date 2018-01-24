@@ -11,8 +11,10 @@ var picture = "";
     this.details
   });
   var details = {
-    name: 'Testing 123'
+    "name": 'Testing 123'
+    "succeed": true
   }
+  
   var tool = {
     "activated": false,
     "sticker": "",
