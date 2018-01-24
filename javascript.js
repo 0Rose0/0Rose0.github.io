@@ -13,6 +13,13 @@ var picture = "";
   var details = {
     name: 'Testing 123'
   }
+  var tool = {
+    "activated": false,
+    "sticker": "",
+    "xloc": 0;
+    "yox": 0
+    
+  }
   
 })();
 
