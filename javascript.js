@@ -11,7 +11,7 @@ console.log("Sup World");
     this.picture
   });
   var details = {
-    name: 'Testing 123'
+    name:"Testing 123",
     succeed: true
   }
   var picture = "https://user-images.githubusercontent.com/16003525/33234973-ad15f752-d1ec-11e7-9224-7046c95b540a.png";
