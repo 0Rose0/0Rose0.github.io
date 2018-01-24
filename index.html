@@ -5,7 +5,7 @@
   <link rel="stylesheet" type="text/css" href="/css/main.css">
  </head>
  
-<body>
+<body ng-controller="TestController as test">
  
  
  <div class="header" > 
@@ -32,7 +32,7 @@
  </div>
  <div class="flexmiddle">   
   <div class="uploadbutton"> Upload picture </div>
-  <div ng-controller="TestController as test" class="picture"> 
+  <div class="picture"> 
    <img src = {{test.picture}}>
    Picture </div>
   <div class="filterbar"> 
@@ -47,8 +47,9 @@
   <button class="tool"> C </button>
  </div>
   
-  <div ng-controller="TestController as test">
-   <p>{{test.details.name}}</p>
+  <div ng-repeat = "details in test.details">
+   <p>{{details.name}}</p>
+    <p>{{details.testNum}}</p>
   </div>
  
   
