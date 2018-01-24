@@ -17,7 +17,7 @@ var picture = "";
     "activated": false,
     "sticker": "",
     "xloc": 0;
-    "yox": 0
+    "yloc": 0
     
   }
   
