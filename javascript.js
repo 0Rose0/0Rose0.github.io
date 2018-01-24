@@ -7,10 +7,10 @@ console.log("Sup World");
 (function(){
   var app = angular.modul('test', []);
   app.controller('TestController', function(){
-    this.details
+    this.details = vdetails;
     this.picture
   });
-  var details = {
+  var vdetails = {
     name:"Testing 123",
     succeed: true
   }
