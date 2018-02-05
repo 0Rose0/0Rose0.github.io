@@ -34,7 +34,7 @@
  <div class="flexmiddle">   
   <div class="uploadbutton"> Upload picture </div>
   <div class="picture"> 
-   <img src = {{realTest.picture}}>
+   <img ng-src = "{{test.picture}}">
    Picture </div>
   <div class="filterbar"> 
     <button class="filter"  style="background-color: grey"> Grey </button>
@@ -50,8 +50,10 @@
  </div>
   
   <div ng-repeat = "details in realTest.details">
-   <p>{{details.name}}</p>
+   <p>{{details.name | uppercase}}</p>
     <p>{{details.testNum}}</p>
+   <p> {{details.price | currency}}</p>
+   <!-- currency is a filter -->
   </div>
  
   
