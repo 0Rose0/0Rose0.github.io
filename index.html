@@ -49,10 +49,10 @@
   <button class="tool"> C </button>
  </div>
   
-  <div ng-repeat = "details in realTest.details">
-   <p>{{details.name | uppercase}}</p>
-    <p>{{details.testNum}}</p>
-   <p> {{details.price | currency}}</p>
+  <div ng-repeat = "detail in realTest.details">
+   <p>{{detail.name | uppercase}}</p>
+    <p>{{detail.testNum}}</p>
+   <p> {{detail.price | currency}}</p>
    <!-- currency is a filter -->
   </div>
  
