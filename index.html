@@ -5,7 +5,8 @@
   <link rel="stylesheet" type="text/css" href="/css/main.css">
  </head>
  
-<body ng-controller="TestController as realTest">
+<body ng-controller="TestController as test">
+ <!-- needs to be different variable like RealTest? -->
  
  
  <div class="header" > 
@@ -42,14 +43,15 @@
   </div>
  </div>
  <div class="flexsides"> 
-  <button ng-show="realTest.details.succeed" class="tool"> A </button>
+  <button ng-show="test.details.succeed" class="tool"> A </button>
+  <!-- again RealTest.details.succeed? -->
   <button class="tool"> B </button>
   <button class="tool"> C </button>
  </div>
   
-  <div ng-repeat = "detail in realTest.details">
-   <p>{{detail.name}}</p>
-    <p>{{detail.testNum}}</p>
+  <div ng-repeat = "details in realTest.details">
+   <p>{{details.name}}</p>
+    <p>{{details.testNum}}</p>
   </div>
  
   
