@@ -5,7 +5,7 @@ console.log("Sup World");
 }
 
 (function(){
-  var app = angular.modul('test', []);
+  var app = angular.module('RealTest', []);
   app.controller('TestController', function(){
     this.details = vdetails;
     this.picture = pic;
