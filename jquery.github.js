@@ -3,8 +3,11 @@ JQuery(document).ready(function(){
   
   var newWord = $(<p> "Selected" </p>);
                   
+  $(.flexsides:first).append(newWord);
+                  
+  $('.tool:first');
   
-  $('.tool:first').append(newWord);
+  
   
   $(".flexsides").last();
   
