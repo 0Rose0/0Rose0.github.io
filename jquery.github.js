@@ -4,6 +4,8 @@ JQuery(document).ready(function(){
   var newWord = $(<p> "Selected" </p>);
                   
   $(.flexsides:first).append(newWord);
+  
+  $(.flexsides:first button).first().remove();
                   
   $('.tool:first');
   
