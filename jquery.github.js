@@ -1,6 +1,10 @@
 JQuery(document).ready(function(){
+  //$(document) instead?//
   
-  $('.tool:first');
+  var newWord = $(<p> "Selected" </p>);
+                  
+  
+  $('.tool:first').append(newWord);
   
   $(".flexsides").last();
   
