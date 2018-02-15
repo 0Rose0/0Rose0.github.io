@@ -33,31 +33,37 @@ console.log("Sup World");
     this.sticker = design;
     this.xloc = x;
     this.yloc =y;
+    
+    function select(){
+      if (mouse sleects in own border){
+        this.activated = true;
+        selecedDesign = this.sticker;
+      }
+      else{
+        this.activated = false;
+        
+      }
+    }
    // Names need paraethesis or not?//
   }
-  
-  function TheTool(  ){
-    this.sticker = design;
-    this.xloc = x;
-    this.yloc =y;
-  }
-  
-  var usedTool
-  var pointer = new TheTool();
+  var selectedDesign;
+
   var Heart = new tool(false, "heart", 0, 0);
   
 })();
 // functions
 
-function draw(usedTool){
-  switch (usedTool){
-    case "Heart:
+function draw(selectedDesign){
+  switch (selectedDesign){
+      case "Heart" 
+        ///draw heart;
+      break;
       
-          
-          
-          
-          
-          }
+      case "Square" 
+        ///draw spuare;
+      break;
+      
+  }
           
 }
 
