@@ -36,9 +36,34 @@ console.log("Sup World");
    // Names need paraethesis or not?//
   }
   
+  function TheTool(  ){
+    this.sticker = design;
+    this.xloc = x;
+    this.yloc =y;
+  }
+  
+  var usedTool
+  var pointer = new TheTool();
   var Heart = new tool(false, "heart", 0, 0);
   
 })();
+// functions
+
+function draw(usedTool){
+  switch (usedTool){
+    case "Heart:
+      
+          
+          
+          
+          
+          }
+          
+}
+
+
+
+
 
 
 my first();
