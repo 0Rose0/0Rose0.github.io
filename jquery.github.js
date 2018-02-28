@@ -9,6 +9,10 @@ JQuery(document).ready(function(){
                   
   $('.tool:first');
   
+  $('button').on('click', function () {
+    
+  });
+  
   
   
   $(".flexsides").last();
