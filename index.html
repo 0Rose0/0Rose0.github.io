@@ -79,50 +79,11 @@
  
  <div class "container">
     <div class "icon">
-        <img alt="heartAppear" id="heartAppear" style="display: none" src="http://vignette3.wikia.nocookie.net/pottermore/images/9/99/Snowball-lrg.png/revision/latest?cb=20130412122815"/>
+        <img alt="heartAppear" id="heartAppear" style="display: none" src="lenses-2924695_1920.png"/>
     </div>
 </div>
  
  
- <script>
- 
-  JQuery(document).ready(function(){
- var selected = '';
-  $('button').on('click', function () {
-       // Get the vertical coordinate
-    if (selected == selected){
-      //nothing?
-    }
-    else{
-      var pastIcon = document.getElementById(selected);
-      if (pastIcon == ''){
-         selected = this.id;
-   alert(this.id);
-      }
-      else{
-        pastIcon.style.display = "none";
-        selected = this.id;
-   alert(this.id);
-      }
-    }
-}
-  }
- 
-  
-  $('.picture').on('click', function () {
-       // Get the vertical coordinate
-var x = event.clientX;     // Get the horizontal coordinate
-var y = event.clientY; 
-    var icon = document.getElementById(selected);
-    icon.style.display = '';
-    icon.style.position = 'absolute';
-    icon.style.left = x + 'px';
-    icon.style.top = y + 'px';
-    
-  });
-   });
- 
- </script>
  
 
   
