@@ -1,7 +1,6 @@
 JQuery(document).ready(function(){
   //$(document) instead?//
-   var x = event.clientX;     // Get the horizontal coordinate
-var y = event.clientY; 
+
   
   var newWord = $(<p> "Selected" </p>);
                   
@@ -14,6 +13,18 @@ var y = event.clientY;
   $('button').on('click', function () {
        // Get the vertical coordinate
 
+    
+  });
+  
+  $('.picture').on('click', function () {
+       // Get the vertical coordinate
+var x = event.clientX;     // Get the horizontal coordinate
+var y = event.clientY; 
+    var snowball = document.getElementById("snowballAppear");
+    snowball.style.display = '';
+    snowball.style.position = 'absolute';
+    snowball.style.left = x + 'px';
+    snowball.style.top = y + 'px';
     
   });
   
