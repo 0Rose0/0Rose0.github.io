@@ -24,9 +24,23 @@ var selected = '';
  
   $('button').on('click', function () {
        // Get the vertical coordinate
-   selected = this.id;
+    if (selected == selected){
+      //nothing?
+    }
+    else{
+      var pastIcon = document.getElementById(selected);
+      if (pastIcon == ''){
+         selected = this.id;
    alert(this.id);
-      
+        
+      }
+      else{
+        pastIcon.style.display = "none";
+        selected = this.id;
+   alert(this.id);
+      }
+ 
+    }
 }
   }
  
