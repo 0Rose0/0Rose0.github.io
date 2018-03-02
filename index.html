@@ -89,35 +89,6 @@
 </body>
  
 </html>
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js">
- JQuery(document).ready(function(){
- 
- var selected = '';
-  
- 
-  $('button').on('click', function () {
-       // Get the vertical coordinate
-   selected = this.id;
-   alert(this.id);
-      
-}
-  }
- 
-  
-  $('.picture').on('click', function () {
-       // Get the vertical coordinate
-var x = event.clientX;     // Get the horizontal coordinate
-var y = event.clientY; 
-    var icon = document.getElementById(selected);
-    icon.style.display = '';
-    icon.style.position = 'absolute';
-    icon.style.left = x + 'px';
-    icon.style.top = y + 'px';
-    
-  });
-});
-
-</script>
 
 
 
