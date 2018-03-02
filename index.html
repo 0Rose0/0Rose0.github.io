@@ -94,17 +94,12 @@
  JQuery(document).ready(function(){
  
  var selected = '';
+  
  
   $('button').on('click', function () {
        // Get the vertical coordinate
-switch (selectedDesign){
-      case "Heart" 
-        selected = 'heartAppear';
-    break;
-      
-      case "Square" 
-        ///draw spuare;
-      break;
+   selected = this.id;
+   alert(this.id);
       
 }
   }
