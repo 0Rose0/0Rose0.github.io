@@ -2,7 +2,7 @@ var start = "i'm starting";
 
 
 
-(function(){
+//(function(){
   var app = angular.module('RealTest', []);
   app.controller('TestController', function(){
     this.details = vdetails;
@@ -27,7 +27,7 @@ var start = "i'm starting";
   var pic = "https://user-images.githubusercontent.com/16003525/33234973-ad15f752-d1ec-11e7-9224-7046c95b540a.png";
   
   
-})();
+
 // functions
 
 
