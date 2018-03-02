@@ -1,6 +1,7 @@
 JQuery(document).ready(function(){
   //$(document) instead?//
 
+  var selected = '';
   
   var newWord = $(<p> "Selected" </p>);
                   
@@ -12,7 +13,16 @@ JQuery(document).ready(function(){
   
   $('button').on('click', function () {
        // Get the vertical coordinate
-
+switch (selectedDesign){
+      case "Heart" 
+        selected = 'heartAppear';
+    break;
+      
+      case "Square" 
+        ///draw spuare;
+      break;
+      
+  }
     
   });
   
@@ -20,11 +30,11 @@ JQuery(document).ready(function(){
        // Get the vertical coordinate
 var x = event.clientX;     // Get the horizontal coordinate
 var y = event.clientY; 
-    var snowball = document.getElementById("snowballAppear");
-    snowball.style.display = '';
-    snowball.style.position = 'absolute';
-    snowball.style.left = x + 'px';
-    snowball.style.top = y + 'px';
+    var icon = document.getElementById(selected);
+    icon.style.display = '';
+    icon.style.position = 'absolute';
+    icon.style.left = x + 'px';
+    icon.style.top = y + 'px';
     
   });
   
