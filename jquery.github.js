@@ -11,20 +11,25 @@ JQuery(document).ready(function(){
                   
   $('.tool:first');
   
+  
+  
+  
+  
+  $(".flexsides").last();
+  
+  $(".flexsides").first().children(".tool").next();
+
+var selected = '';
+  
+ 
   $('button').on('click', function () {
        // Get the vertical coordinate
-switch (selectedDesign){
-      case "Heart" 
-        selected = 'heartAppear';
-    break;
+   selected = this.id;
+   alert(this.id);
       
-      case "Square" 
-        ///draw spuare;
-      break;
-      
+}
   }
-    
-  });
+ 
   
   $('.picture').on('click', function () {
        // Get the vertical coordinate
@@ -37,12 +42,4 @@ var y = event.clientY;
     icon.style.top = y + 'px';
     
   });
-  
-  
-  
-  $(".flexsides").last();
-  
-  $(".flexsides").first().children(".tool").next();
-
-
 });
