@@ -4,9 +4,12 @@ var start = "i'm starting";
 
 //(function(){
   var app = angular.module('RealTest', []);
-  app.controller('TestController', function(){
-    this.details = vdetails;
-    this.picture = pic;
+  app.controller('TestController', function($scope){
+    $scope.details = vdetails;
+    $scope.picture = pic;
+    
+     //this.details = vdetails;
+    //this.picture = pic;
   });
   var vdetails = [
     
