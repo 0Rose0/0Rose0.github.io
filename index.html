@@ -90,32 +90,67 @@
   
 -->
  <script src="jquery-3.3.1.min.js"></script> 
- <script type="javascript" >
-  var app = angular.module('RealTest', []);
-  app.controller('TestController', function($scope){
-    $scope.details = vdetails;
-    $scope.picture = pic;
-    
-     //this.details = vdetails;
-    //this.picture = pic;
-  });
-  var vdetails = [
-    
-    {
-    name:"Testing 123",
-    testNum:1,
-    succeed: true,
-    price: '3'
-    },
-    
-   {
-    name:"Testing 124",
-    testNum:2,
-    succeed: false,
-    price: '5'
+ <script >
+  $(document).ready(function(){
+  //JQuery(document) instead?//
+
+  var selected = '';
+  
+  var newWord = $(<p> "Selected" </p>);
+                  
+  $('.flexsides:first').append(newWord);
+  
+  $('.flexsides:first button').first().remove();
+                  
+  $('.tool:first');
+  
+  
+  
+  
+  
+  $(".flexsides").last();
+  
+  $(".flexsides").first().children(".tool").next();
+
+var selected = '';
+  
+ 
+  $('button').on('click', function () {
+       // Get the vertical coordinate
+    if (selected == selected){
+      //nothing?
     }
-  ];
-  var pic = "https://user-images.githubusercontent.com/16003525/33234973-ad15f752-d1ec-11e7-9224-7046c95b540a.png";
+    else{
+      var pastIcon = document.getElementById(selected);
+      if (pastIcon == ''){
+         selected = this.id;
+   alert(this.id);
+        
+      }
+      else{
+        pastIcon.style.display = "none";
+        selected = this.id;
+   alert(this.id);
+      }
+ 
+    }
+}
+  }
+ 
+  
+  $('.picture').on('click', function () {
+       // Get the vertical coordinate
+var x = event.clientX;     // Get the horizontal coordinate
+var y = event.clientY; 
+    var icon = document.getElementById(selected);
+    icon.style.display = '';
+    icon.style.position = 'absolute';
+    icon.style.left = x + 'px';
+    icon.style.top = y + 'px';
+    
+  });
+});
+
   </script>
   
 
