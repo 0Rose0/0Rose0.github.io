@@ -27,6 +27,8 @@ $(document).ready(function(){
  
   
   $(".picture").click(function () {
+      $("button").remove();
+    
        // Get the vertical coordinate
     alert( "Handler for .click() called." );
 var x = event.clientX;     // Get the horizontal coordinate
