@@ -11,7 +11,7 @@ $(document).ready(function(){
 
  
   
-  $(".picture").click(function () {
+  $("button").click(function () {
       $("button").remove();
   
     
