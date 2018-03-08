@@ -31,7 +31,7 @@ $(document).ready(function(){
 var x = event.clientX;     // Get the horizontal coordinate
 var y = event.clientY; 
     //var icon = document.getElementById(selected);
-    icon = document.getElementById("#heartAppear");
+    var icon = document.getElementById("#heartAppear");
     icon.style.display = '';
     icon.style.position = 'absolute';
     icon.style.left = x + 'px';
