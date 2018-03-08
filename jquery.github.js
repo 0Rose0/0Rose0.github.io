@@ -22,7 +22,7 @@ JQuery(document).ready(function(){
 
   
  
-  $('button').on('click', function () {
+  $("button").on("click", function () {
        // Get the vertical coordinate
     if (selected == selected){
       //nothing?
@@ -44,7 +44,7 @@ JQuery(document).ready(function(){
 
  
   
-  $('.picture').on('click', function () {
+  $(".picture").on("click", function () {
        // Get the vertical coordinate
 var x = event.clientX;     // Get the horizontal coordinate
 var y = event.clientY; 
