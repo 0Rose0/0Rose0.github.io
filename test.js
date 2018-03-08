@@ -8,7 +8,7 @@ $(document).ready(function(){
   $("button").on("click", function () {
        // Get the vertical coordinate
     if (selected == selected){
-      //nothing?
+      alert("Same");
     }
     else{
       var pastIcon = document.getElementById(selected);
