@@ -1,7 +1,7 @@
 $(document).ready(function(){
   //JQuery(document) instead?//
 
-                  
+          var selected = '';        
  // $("button").remove();
  // $(".uploadbutton").remove();
   
