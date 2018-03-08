@@ -12,17 +12,14 @@ $(document).ready(function(){
     if (this.id == selected){
       alert("Same");
     }
-    else{
-      var pastIcon = document.getElementById(selected);
-      if (pastIcon == ''){
-         selected = this.id;
-   alert(this.id);
-        
-      }
+    else if (pastIcon == ''){
+      selected = this.id;
+      {
       else{
+        var pastIcon = document.getElementById(selected);
         pastIcon.style.display = "none";
         selected = this.id;
-   alert(this.id);
+  
       }
  
     });
@@ -33,7 +30,8 @@ $(document).ready(function(){
        // Get the vertical coordinate
 var x = event.clientX;     // Get the horizontal coordinate
 var y = event.clientY; 
-    var icon = document.getElementById(selected);
+    //var icon = document.getElementById(selected);
+    icon = document.getElementById("#heartAppear");
     icon.style.display = '';
     icon.style.position = 'absolute';
     icon.style.left = x + 'px';
