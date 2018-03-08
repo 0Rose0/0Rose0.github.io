@@ -16,7 +16,7 @@ $(document).ready(function(){
     var x = event.clientX;     // Get the horizontal coordinate
 var y = event.clientY; 
     var icon = document.getElementById("heartAppear");
-    icon.style.display = '';
+    icon.style.display = 'block';
     icon.style.position = 'absolute';
     icon.style.left = x;
     icon.style.top = y ;
