@@ -26,8 +26,9 @@ $(document).ready(function(){
 
  
   
-  $(".picture").on("click", function () {
+  $(".picture").click(function () {
        // Get the vertical coordinate
+    alert( "Handler for .click() called." );
 var x = event.clientX;     // Get the horizontal coordinate
 var y = event.clientY; 
     //var icon = document.getElementById(selected);
