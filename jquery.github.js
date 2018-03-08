@@ -24,20 +24,17 @@ JQuery(document).ready(function(){
  
   $("button").on("click", function () {
        // Get the vertical coordinate
-    if (selected == selected){
-      //nothing?
+    if (this.id == selected){
+      alert("Same");
     }
-    else{
-      var pastIcon = document.getElementById(selected);
-      if (pastIcon == ''){
-         selected = this.id;
-   alert(this.id);
-        
-      }
+    else if (pastIcon == ''){
+      selected = this.id;
+      {
       else{
+        var pastIcon = document.getElementById(selected);
         pastIcon.style.display = "none";
         selected = this.id;
-   alert(this.id);
+  
       }
  
     });
