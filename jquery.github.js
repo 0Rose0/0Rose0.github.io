@@ -19,7 +19,7 @@ JQuery(document).ready(function(){
   
   $(".flexsides").first().children(".tool").next();
 
-var selected = '';
+
   
  
   $('button').on('click', function () {
@@ -40,9 +40,8 @@ var selected = '';
    alert(this.id);
       }
  
-    }
-}
-  }
+    });
+
  
   
   $('.picture').on('click', function () {
