@@ -7,7 +7,7 @@ $(document).ready(function(){
   
   $("button").on("click", function () {
        // Get the vertical coordinate
-    if (selected == selected){
+    if (this.id == selected){
       alert("Same");
     }
     else{
