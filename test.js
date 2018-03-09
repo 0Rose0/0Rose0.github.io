@@ -13,8 +13,10 @@ $(document).ready(function(){
   
   $(".picture").on("click", function () {
      // $("button").remove();
-    var x = event.clientX;     // Get the horizontal coordinate
-var y = event.clientY; 
+    //var x = event.clientX;     // Get the horizontal coordinate
+//var y = event.clientY; 
+     var x = screen.clientX;     // Get the horizontal coordinate
+var y = screen.clientY;
     var icon = document.getElementById("heartAppear");
     icon.style.display = '';
     icon.style.position = 'absolute';
