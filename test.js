@@ -15,8 +15,8 @@ $(document).ready(function(){
      // $("button").remove();
     //var x = event.clientX;     // Get the horizontal coordinate
 //var y = event.clientY; 
-     var x = screen.clientX;     // Get the horizontal coordinate
-var y = screen.clientY;
+     var x = event.screenX;     // Get the horizontal coordinate
+var y = event.screenY;
     var icon = document.getElementById("heartAppear");
     icon.style.display = '';
     icon.style.position = 'absolute';
