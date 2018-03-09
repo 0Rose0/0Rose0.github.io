@@ -19,7 +19,7 @@ var y = event.clientY;
     icon.style.display = '';
     icon.style.position = 'absolute';
     icon.style.left = x + 'px';
-    icon.style.top = y + 'px'+ 1000;
+    icon.style.top = y + 'px'+ 500;
     
   
     
