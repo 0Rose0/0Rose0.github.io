@@ -18,8 +18,8 @@ var y = event.clientY;
     var icon = document.getElementById("heartAppear");
     icon.style.display = '';
     icon.style.position = 'absolute';
-    icon.style.left = x + 'px';
-    icon.style.top = y + 'px' + 250;
+    icon.style.left = x;
+    icon.style.top = y;
     
   
     
