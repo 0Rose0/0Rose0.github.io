@@ -7,11 +7,11 @@ var selected = '';
   
   $("button").on("click", function () {
     //var thisIcon = document.getElementById(this.id);
-var pastIcon = document.getElementById(selected);
+//var pastIcon = document.getElementById(selected);
     if (this.id == selected){
       alert("Same");
     }
-    else if (pastIcon == ''){
+    else if (selected == ''){
       selected = this.id;
       {
       else{
