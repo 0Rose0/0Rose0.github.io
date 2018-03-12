@@ -8,19 +8,21 @@ var selected = '';
   $("button").on("click", function () {
     //var thisIcon = document.getElementById(this.id);
 //var pastIcon = document.getElementById(selected);
-    if (this.id == selected){
-      alert("Same");
+    if (this.id == "heart"){
+        selected = "heartAppear";
+        }
+     else if (this.id == "star"){
+        selected = "starAppear";
+        }
+      else if (this.id == "flower"){
+        selected = "flowerAppear";
+        }
+    else{
+      alert("Not Icon");
     }
-    else if (selected == ''){
-      selected = this.id;
-      {
-      else{
-        
-        pastIcon.style.display = "none";
-        selected = this.id;
-  
-      }
- 
+    
+    
+   
     });
 
  
