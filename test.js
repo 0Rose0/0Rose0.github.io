@@ -36,12 +36,16 @@ var selected = '';
      var x = event.screenX;     // Get the horizontal coordinate
 var y = event.screenY;
     var icon = document.getElementById(selected);
+    
+    var NewIcon = $(icon).clone(true);
+    $(".container").append(NewIcon);
   
     
-    icon.style.display = '';
-    icon.style.position = 'absolute';
-    icon.style.left = x + 'px';
-    icon.style.top = y + 'px';
+    NewIcon.style.display = '';
+    NewIcon.style.position = 'absolute';
+    NewIcon.style.left = x + 'px';
+    NewIcon.style.top = y + 'px';
+    
     
   
     
