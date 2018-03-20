@@ -62,7 +62,6 @@ var selected = '';
 
 
  $(".picture").on("click", function () {
-     $("button").remove();
   var x = event.clientX;     // Get the horizontal coordinate
 var y = event.clientY; 
    var icon = document.getElementById(selected);
