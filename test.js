@@ -40,37 +40,37 @@ var selected = '';
 
  
   
-  $(".picture").on("click", function () {
+  //$(".picture").on("click", function () {
      // $("button").remove();
     //var x = event.clientX;     // Get the horizontal coordinate
 //var y = event.clientY; 
-     var x = event.screenX;     // Get the horizontal coordinate
-var y = event.screenY;
-    var NewIcon = document.getElementById(selected);
+   //  var x = event.screenX;     // Get the horizontal coordinate
+//var y = event.screenY;
+  //  var NewIcon = document.getElementById(selected);
     
     
-    NewIcon.style.display = '';
-    NewIcon.style.position = 'absolute';
-    NewIcon.style.left = x + 'px';
-    NewIcon.style.top = y + 'px';
+    //NewIcon.style.display = '';
+   // NewIcon.style.position = 'absolute';
+    //NewIcon.style.left = x + 'px';
+    //NewIcon.style.top = y + 'px';
     
     
   
     
-  });
-});
+ // });
+//});
 
 
- //$(".picture").on("click", function () {
-     // $("button").remove();
-   // var x = event.clientX;     // Get the horizontal coordinate
-//var y = event.clientY; 
-  //  var icon = document.getElementById("heartAppear");
-    //icon.style.display = '';
-   // icon.style.position = 'absolute';
-    //icon.style.left = x + 'px';
-    //icon.style.top = y + 'px';
+ $(".picture").on("click", function () {
+     $("button").remove();
+  var x = event.clientX;     // Get the horizontal coordinate
+var y = event.clientY; 
+   var icon = document.getElementById(selected);
+   icon.style.display = '';
+   icon.style.position = 'absolute';
+    icon.style.left = x + 'px';
+    icon.style.top = y + 'px';
     
   
     
-//  });
+ });
