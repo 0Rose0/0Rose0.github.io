@@ -64,7 +64,7 @@ var selected = '';
  $(".picture").on("click", function () {
   var x = event.clientX;     // Get the horizontal coordinate
 var y = event.clientY; 
-   var icon = document.getElementById("selected");
+   var icon = document.getElementById(selected);
    icon.style.display = '';
    icon.style.position = 'absolute';
     icon.style.left = x + 'px';
