@@ -25,18 +25,18 @@ var selected = '';
    
     });
 
- var iconObj = function(id, pic){
-   if (selected == "heartAppear"){
-    id = "hearAppear";
-     pic="https://user-images.githubusercontent.com/16003525/37293869-2a9ca6d0-25da-11e8-9c00-1ed78cae559a.png";
-   }
-   else{
+// var iconObj = function(id, pic){
+  // if (selected == "heartAppear"){
+ //   id = "hearAppear";
+   //  pic="https://user-images.githubusercontent.com/16003525/37293869-2a9ca6d0-25da-11e8-9c00-1ed78cae559a.png";
+  // }
+ //  else{
      
-   }
+ //  }
    
-    return document.write(" <img class="icons" alt="id" id="id" style="display: none"  height="50" width="50" src="pic"/> ")
+   // return document.write(" <img class="icons" alt="id" id="id" style="display: none"  height="50" width="50" src="pic"/> ")
    
- }
+// }
 
  
   
