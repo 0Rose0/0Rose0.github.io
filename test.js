@@ -64,10 +64,14 @@ var selected = '';
  $(".picture").on("click", function () {
   var x = event.clientX;     // Get the horizontal coordinate
 var y = event.clientY; 
-   $(".hearts").append(<img class="icons" alt="heartAppear" id="heartAppear" style="display: none"  height="50" width="50" src="https://user-images.githubusercontent.com/16003525/37293869-2a9ca6d0-25da-11e8-9c00-1ed78cae559a.png"/>);
-   var $icon = $(".hearts").last();
-   // var $icon = $(".hearts:last");
    //var icon = document.getElementById(selected);
+   var newIcon = document.getElementById(selected);
+ // $(".hearts").append(<img class="icons" alt="heartAppear" id="heartAppear" style="display: none"  height="50" width="50" src="https://user-images.githubusercontent.com/16003525/37293869-2a9ca6d0-25da-11e8-9c00-1ed78cae559a.png"/>);
+ //$(.hearts).append($(".heart");
+   $(".container").append(newIcon);
+   var icon = $(".container").last();
+   // var icon = $(".hearts:last");
+   
    icon.style.display = '';
    icon.style.position = 'absolute';
     icon.style.left = x + 'px';
