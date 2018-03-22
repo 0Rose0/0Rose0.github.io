@@ -69,8 +69,7 @@ var y = event.clientY;
  // $(".hearts").append(<img class="icons" alt="heartAppear" id="heartAppear" style="display: none"  height="50" width="50" src="https://user-images.githubusercontent.com/16003525/37293869-2a9ca6d0-25da-11e8-9c00-1ed78cae559a.png"/>);
  //$(.hearts).append($(".heart");
    $(".container").prepend(newIcon);
-   $(".container").prepend("<p>Hi</p>");
-   var icon = $(".container").first();
+   var icon = $(selected).first();
    // var icon = $(".hearts:last");
    
    icon.style.display = '';
@@ -78,7 +77,6 @@ var y = event.clientY;
     icon.style.left = x + 'px';
     icon.style.top = y + 'px';
    
-   //append new thing then adress it using nth child or whatever to get last on in list
     
   
     
