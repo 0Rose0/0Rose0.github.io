@@ -28,22 +28,7 @@ var start = "i'm starting";
     }
   ];
   var pic = "https://user-images.githubusercontent.com/16003525/33234973-ad15f752-d1ec-11e7-9224-7046c95b540a.png";
-  var imageLoader = document.getElementById('getimage');
-imageLoader.addEventListener('change', handleImage, false);
-
-
-function handleImage(e){
-    var reader = new FileReader();
-    reader.onload = function(event){
-        var img = new Image();
-        img.onload = function(){
-            document.body.appendChild(img);
-        }
-        img.src = event.target.result;
-    }
-    reader.readAsDataURL(e.target.files[0]);     
-}
-
+  
   
 
 // functions
