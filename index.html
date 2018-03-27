@@ -41,12 +41,65 @@
  </div>
  <div class="flexmiddle">   
   
+  
+  
+  
+  
+  
+  
+  
 
+  <script>
+if (window.File && window.FileReader && window.FileList && window.Blob) 
+  document.write("<b>File API supported.</b> <br />");
+else
+  document.write('<i>File API not supported by this browser.</i> <br />');
+</script>
+
+<form name="form1" method="post" action>
+    <input type="file" id="getimage">
+</form>
+
+<script language="javascript" >
+
+function imageHandler(e2) 
+{ 
+    var store = document.getElementById('imgstore');
+    store.innerHTML='<img src="' + e2.target.result +'">';
+}
+function loadimage(e1)
+{
+    var filename = e1.target.files[0]; 
+    var fr = new FileReader();
+    fr.onload = imageHandler;  
+    fr.readAsDataURL(filename); 
+}
+window.onload=function()
+{
+    var x = document.getElementById("filebrowsed");
+    x.addEventListener('change', readfile, false);
+    var y = document.getElementById("getimage");
+    y.addEventListener('change', loadimage, false);
+}
+
+</script>
+
+<fieldset><legend>Your image here</legend>
+    <div  id="imgstore">
+    </div>
+</fieldset>
   
-  
-  <div class="uploadbutton"> Upload picture </div>
-  <input name="myFile" id="image" type="file" alt="Login">
+  <!-- <div class="uploadbutton"> Upload picture </div>
+  <input name="myFile" id="image" type="file" alt="Login"> -->
  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
