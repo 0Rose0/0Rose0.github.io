@@ -41,13 +41,13 @@ var start = "i'm starting";
        } else {
            preview.src = "";
        }
-    
+    make_base();
   }
   previewFile();  //calls the function named previewFile()
    
    var canvas = document.getElementById('viewPort'),
 context = canvas.getContext('2d');
-make_base();
+
 function make_base()
 {
  var preview = document.getElementById('pic');
