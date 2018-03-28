@@ -50,7 +50,7 @@ context = canvas.getContext('2d');
 make_base();
 function make_base()
 {
- var preview = document.querySelector('img');
+ var preview = document.getElementById('pic');
  
  
   base_image = new Image();
