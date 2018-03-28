@@ -41,7 +41,7 @@ var start = "i'm starting";
        } else {
            preview.src = "";
        }
-    make_base();
+    
   }
   previewFile();  //calls the function named previewFile()
    
