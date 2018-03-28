@@ -18,7 +18,7 @@ var selected = '';
         selected = "flowerAppear";
         }
     else{
-      alert("Not Icon");
+      
     }
     
     
