@@ -60,6 +60,23 @@
   }
 
   previewFile();  //calls the function named previewFile()
+   
+   var canvas = document.getElementById('viewport'),
+context = canvas.getContext('2d');
+
+make_base();
+
+function make_base()
+{
+ var preview = document.querySelector('img');
+ 
+ 
+  base_image = new Image();
+  base_image.src = preview.src;
+  base_image.onload = function(){
+    context.drawImage(base_image, 0, 0);
+  }
+}
   </script>
   
   
@@ -69,6 +86,7 @@
 
   <input type="file" onchange="previewFile()"><br>
 <img class="picture" src="" height="200" alt="Image preview...">
+  <canvas id="viewPort"> </canvas>
   
   <!-- <div class="uploadbutton"> Upload picture </div>
   <input name="myFile" id="image" type="file" alt="Login"> -->
