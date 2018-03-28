@@ -24,6 +24,8 @@ var selected = '';
     
    
     });
+  
+  $("#grey").on("click", makeGrey());
 
 // var iconObj = function(id, pic){
   // if (selected == "heartAppear"){
