@@ -53,7 +53,7 @@ function make_base()
  var preview = document.getElementById('pic');
  
  
-  base_image = new Image();
+  var base_image = new Image();
   base_image.src = preview.src;
   base_image.onload = function(){
     context.drawImage(base_image, 0, 0);
