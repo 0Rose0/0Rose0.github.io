@@ -42,7 +42,7 @@ var start = "i'm starting";
            preview.src = "";
        }
     make_base();
-    makeGrey();
+   // makeGrey();
   }
   previewFile();  //calls the function named previewFile()
    
