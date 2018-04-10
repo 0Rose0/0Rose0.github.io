@@ -41,12 +41,12 @@ var start = "i'm starting";
        } else {
            preview.src = "";
        }
-    make_base();
+    //make_base();
   }
   previewFile();  //calls the function named previewFile()
    
-   var canvas = document.getElementById('viewPort'),
-context = canvas.getContext('2d');
+   //var canvas = document.getElementById('viewPort'),
+//context = canvas.getContext('2d');
 
 function make_base()
 {
@@ -63,8 +63,8 @@ function make_base()
 function makeGrey(){
 var c=document.getElementById("viewPort");
 var ctx=c.getContext("2d");
-//var img=document.getElementById("pic");
-//ctx.drawImage(img,0,0);
+var img=document.getElementById("pic");
+ctx.drawImage(img,0,0);
 
 var imgData=ctx.getImageData(0,0,c.width,c.height);
 // invert colors
