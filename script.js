@@ -61,14 +61,11 @@ function make_base()
 }
 
 function makeGrey(){
-//var c=document.getElementById("viewPort");
-//var ctx=c.getContext("2d");
-//var img=document.getElementById("pic");
-   var c=document.getElementById("viewPort");
+var c=document.getElementById("viewPort");
 var ctx=c.getContext("2d");
-var img=document.getElementById("viewPort");
-  
-ctx.drawImage(img,0,0);
+//var img=document.getElementById("pic");
+//ctx.drawImage(img,0,0);
+
 var imgData=ctx.getImageData(0,0,c.width,c.height);
 // invert colors
 for (var i=0;i<imgData.data.length;i+=4)
