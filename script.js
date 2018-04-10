@@ -41,7 +41,8 @@ var start = "i'm starting";
        } else {
            preview.src = "";
        }
-    //make_base();
+    make_base();
+    makeGrey();
   }
   previewFile();  //calls the function named previewFile()
    
