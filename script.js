@@ -44,7 +44,7 @@ var start = "i'm starting";
        
        
        
-       var preview = document.getElementById('pic');
+      
  
  
   var base_image = new Image();
