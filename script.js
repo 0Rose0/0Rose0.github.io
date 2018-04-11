@@ -41,6 +41,19 @@ var start = "i'm starting";
        } else {
            preview.src = "";
        }
+       
+       
+       
+       var preview = document.getElementById('pic');
+ 
+ 
+  var base_image = new Image();
+  base_image.src = preview.src;
+  base_image.onload = function(){
+    context.drawImage(base_image, 0, 0);
+  }
+       
+       
     //make_base();
    // makeGrey();
   }
