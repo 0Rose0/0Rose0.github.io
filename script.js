@@ -39,7 +39,7 @@ var start = "i'm starting";
  // base_image.src = reader.result;
 //  base_image.onload = function(){
     //context.drawImage(base_image, 0, 0);
-         make_base();
+        
   }
        }
        if (file) {
@@ -61,8 +61,8 @@ var start = "i'm starting";
   }
   previewFile();  //calls the function named previewFile()
    
-   //var canvas = document.getElementById('viewPort'),
-//context = canvas.getContext('2d');
+   var canvas = document.getElementById('viewPort'),
+ var context = canvas.getContext('2d');
 
 function make_base()
 {
