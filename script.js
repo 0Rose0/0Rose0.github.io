@@ -35,6 +35,12 @@ var start = "i'm starting";
        var reader  = new FileReader();
        reader.onloadend = function () {
            preview.src = reader.result;
+          //var base_image = new Image();
+ // base_image.src = reader.result;
+//  base_image.onload = function(){
+    //context.drawImage(base_image, 0, 0);
+         make_base();
+  }
        }
        if (file) {
            reader.readAsDataURL(file); //reads the data as a URL
@@ -47,11 +53,7 @@ var start = "i'm starting";
       
  
  
-  var base_image = new Image();
-  base_image.src = preview.src;
-  base_image.onload = function(){
-    context.drawImage(base_image, 0, 0);
-  }
+ 
        
        
     //make_base();
