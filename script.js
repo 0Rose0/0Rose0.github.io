@@ -39,7 +39,7 @@ var start = "i'm starting";
  // base_image.src = reader.result;
 //  base_image.onload = function(){
     //context.drawImage(base_image, 0, 0);
-        make_base();
+       
   }
        }
        if (file) {
@@ -57,7 +57,7 @@ var start = "i'm starting";
        
        
     //make_base();
-   // makeGrey();
+   makeGrey();
   }
   previewFile();  //calls the function named previewFile()
    
