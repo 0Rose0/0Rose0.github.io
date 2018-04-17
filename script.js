@@ -40,7 +40,7 @@ var start = "i'm starting";
 //  base_image.onload = function(){
     //context.drawImage(base_image, 0, 0);
        
-  }
+ //}
        }
        if (file) {
            reader.readAsDataURL(file); //reads the data as a URL
