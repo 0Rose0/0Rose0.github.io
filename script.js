@@ -56,8 +56,8 @@ var start = "i'm starting";
  
        
        
-    //make_base();
-   makeGrey();
+    make_base();
+   //makeGrey();
   }
   previewFile();  //calls the function named previewFile()
    
