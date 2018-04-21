@@ -66,7 +66,7 @@ var start = "i'm starting";
 
 function make_base()
 {
-// var preview = document.getElementById('pic');
+ var preview = document.getElementById('pic');
  
  
   var base_image = new Image();
