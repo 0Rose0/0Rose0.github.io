@@ -29,37 +29,26 @@ var start = "i'm starting";
   ];
   var pic = "https://user-images.githubusercontent.com/16003525/33234973-ad15f752-d1ec-11e7-9224-7046c95b540a.png";
   
-     function previewFile(){
+
+   function previewFile(){
        var preview = document.querySelector('img'); //selects the query named img
        var file    = document.querySelector('input[type=file]').files[0]; //sames as here
        var reader  = new FileReader();
+
        reader.onloadend = function () {
            preview.src = reader.result;
-          //var base_image = new Image();
- // base_image.src = reader.result;
-//  base_image.onload = function(){
-    //context.drawImage(base_image, 0, 0);
-       
- //}
        }
+
        if (file) {
            reader.readAsDataURL(file); //reads the data as a URL
        } else {
            preview.src = "";
        }
-       
-       
-       
-      
- 
- 
- 
-       
-       
-  //  make_base();
-   //makeGrey();
   }
+
   previewFile();  //calls the function named previewFile()
+
+
    
    var canvas = document.getElementById('viewPort'),
  var context = canvas.getContext('2d');
