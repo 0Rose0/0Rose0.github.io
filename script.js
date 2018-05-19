@@ -57,11 +57,11 @@ var start = "i'm starting";
 
 function make_base()
 {
- var preview = document.getElementById('pic');
+ var prev = document.getElementById('pic');
  
  
   var base_image = new Image();
-  base_image.src = preview.src;
+  base_image.src = prev.src;
   base_image.onload = function(){
     context.drawImage(base_image, 0, 0);
   }
