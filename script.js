@@ -1,4 +1,4 @@
-var start = "i'm starting";
+
 
 
 
@@ -26,7 +26,7 @@ var start = "i'm starting";
     succeed: false,
     price: '5'
     }
-  ];
+  ]//semicolon?
   var pic = "https://user-images.githubusercontent.com/16003525/33234973-ad15f752-d1ec-11e7-9224-7046c95b540a.png";
   
 
@@ -65,7 +65,7 @@ function make_base()
   base_image.onload = function(){
     context.drawImage(base_image, 0, 0);
   }
-}
+};
 
 function makeGrey(){
 var c=document.getElementById("viewPort");
