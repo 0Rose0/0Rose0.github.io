@@ -48,7 +48,7 @@
     make_base();
   }
 
-  previewFile();  //calls the function named previewFile()
+  //previewFile();  //calls the function named previewFile()
 
 
    
